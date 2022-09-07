@@ -24,7 +24,7 @@ header{
     color: #ffffff;
 }
 nav {
-    width: 60%;
+    width: 70%;
     margin: 0px auto;
     padding-top: 20px;
 }
@@ -42,7 +42,31 @@ nav img{
 
 ul li{
     display: inline;
+    cursor: pointer;
 }
 li {
     list-style: none;
+}
+
+i {
+    padding-left: 5px;
+}
+
+/* Main */
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-row{
+    display: flex;
+}
+
+main img{
+    width: 400px;
+    margin: 40px 10px;
+}
+
+col {
+    width: calc(100% / 3);
 }
