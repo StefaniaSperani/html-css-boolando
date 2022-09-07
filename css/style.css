@@ -76,6 +76,7 @@ section{
 }
 .col {
     width: calc(100% / 3);
+    position: relative;
 }
 
 .sconto{
@@ -84,4 +85,26 @@ section{
 
 .cancel{
     text-decoration: line-through;
+}
+
+.label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--sconto);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px 13px;
+}
+.label2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+
+
+}
+
+.labels{
+    display: flex;
 }
