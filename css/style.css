@@ -133,3 +133,38 @@ section{
     padding: 3px 13px;
     margin-bottom: 100px;
 }
+
+/* footer */
+footer{
+    background-color: #1a1a1a;
+    height: 100px;
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+/* .flexfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+.credits{
+    width: 60%;
+    margin: 0px auto;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* .socials{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end; */
+} */
