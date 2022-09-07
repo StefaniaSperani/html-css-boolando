@@ -57,16 +57,26 @@ main {
     width: 70%;
     margin: 0 auto;
 }
-
+section{
+    margin-top: 50px;
+}
 .flex-row{
     display: flex;
 }
 
-main img{
-    width: 400px;
-    margin: 20px auto;
+.col img{
+    width: 100%;
 }
 
+.margin {
+    margin: 0 20px;
+}
 .col {
     width: calc(100% / 3);
-}
+    /* position: relative;
+} */
+
+/* .label{
+    position: absolute;
+    
+} */
