@@ -95,12 +95,18 @@ section{
     color: #ffffff;
     font-weight: bold;
     padding: 3px 13px;
+    margin-bottom: 100px;
 }
 .label2{
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px 13px;
+    margin-bottom: 100px;
+    margin-left: 70px;
 }
 
 .heart{
@@ -111,4 +117,15 @@ section{
     background-color: #ffffff;
     margin-top: 10px;
     padding: 5px 10px;
+}
+
+.label2left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px 13px;
+    margin-bottom: 100px;
 }
