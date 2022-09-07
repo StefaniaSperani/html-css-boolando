@@ -57,8 +57,12 @@ li {
 
 i {
     padding-left: 5px;
+    cursor: pointer;
 }
 
+.logo{
+    cursor: pointer;
+}
 /* Main */
 main {
     width: 60%;
@@ -81,6 +85,8 @@ section{
 .col {
     width: calc(100% / 3);
     position: relative;
+    padding-top: 80px;
+    cursor: pointer;
 }
 
 .sconto{
@@ -119,7 +125,7 @@ section{
     right: 0;
     font-size: 30px;
     background-color: #ffffff;
-    margin-top: 10px;
+    margin-top: 90px;
     padding: 5px 10px;
 }
 
@@ -134,37 +140,74 @@ section{
     margin-bottom: 100px;
 }
 
+/* Hover immagini */
+
+
+/* Hoover Immagini */
+.down{
+    display: none;
+}
+.up{
+    display: inline-block;
+}
+.col:hover .down{
+    display: inline-block;
+
+}
+.col:hover .up{
+    display: none;
+}
+
+.heart:hover{
+    color: var(--sconto);
+    cursor: pointer;
+}
 /* footer */
-footer{
+
+.footer-container{
+    width: 100%;
     background-color: #1a1a1a;
-    height: 100px;
-    margin-top: 60px;
-    color: #ffffff;
+    height: 130px;
+    padding: 20px 0;
+    margin-top: 30px;
 }
-
-/* .flexfooter{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
-.credits{
-    width: 60%;
-    margin: 0px auto;
-    padding-top: 20px;
-    color: #ffffff;
-}
-
-a{
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-/* .socials{
+.footer-center{
     width: 60%;
     margin: 0 auto;
-    font-size: 20px;
-    color: #ffffff;
+    height: 100px;
     display: flex;
-    justify-content: flex-end; */
-} */
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 0;
+    
+}
+.footer-center h3{
+    color: white;
+
+}
+.footer-center ul li{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#nopadding{
+    padding-left: 0;
+}
+.footer-center ul li a{
+    color: white;
+    text-decoration: none;
+}
+.socials{
+    color: white;  
+}
+
+.fa-brands {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.footer-right i{
+    color: white;
+}
+.ul-footer{
+    display: flex;
+}
