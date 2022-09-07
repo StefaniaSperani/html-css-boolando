@@ -162,15 +162,18 @@ section{
     color: var(--sconto);
     cursor: pointer;
 }
+
 /* footer */
 
 .footer-container{
     width: 100%;
     background-color: #1a1a1a;
+    color: #ffffff;
     height: 130px;
     padding: 20px 0;
     margin-top: 30px;
 }
+
 .footer-center{
     width: 60%;
     margin: 0 auto;
@@ -179,24 +182,23 @@ section{
     justify-content: space-between;
     align-items: flex-end;
     padding: 30px 0;
-    
 }
-.footer-center h3{
-    color: white;
 
+.ul-footer{
+    display: flex;
 }
+
 .footer-center ul li{
     list-style: none;
-    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
 }
-#nopadding{
-    padding-left: 0;
-}
-.footer-center ul li a{
-    color: white;
+
+a{
     text-decoration: none;
+    color: #ffffff;
 }
+
 .socials{
     color: white;  
 }
@@ -204,10 +206,4 @@ section{
 .fa-brands {
     padding-top: 10px;
     font-size: 20px;
-}
-.footer-right i{
-    color: white;
-}
-.ul-footer{
-    display: flex;
 }
