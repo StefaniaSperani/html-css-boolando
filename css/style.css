@@ -7,7 +7,6 @@
 
 /* General */
 html{
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +19,7 @@ header{
     width: 100%;
     z-index: 1;
     top: 0;
+    left: 0;
     height: 80px;
     background-color: #ff6900;
     color: #ffffff;
@@ -33,6 +33,7 @@ nav {
 
 nav img{
     width: 150px;
+    /* oppure diamo una height cosi la width la sistema da solo */
 }
 
 .flexbox {
@@ -135,9 +136,6 @@ section{
     margin-bottom: 100px;
 }
 
-/* Hover immagini */
-
-
 /* Hoover Immagini */
 .down{
     display: none;
@@ -147,7 +145,6 @@ section{
 }
 .col:hover .down{
     display: inline-block;
-
 }
 .col:hover .up{
     display: none;
